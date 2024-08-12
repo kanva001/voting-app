@@ -8,4 +8,6 @@ metadata:
 spec:
   containers:
     - name: voting-app
-      image: <>
+      image: kanva001/example-voting-app_vote:v1
+      ports:
+        - containerPort: 80          
